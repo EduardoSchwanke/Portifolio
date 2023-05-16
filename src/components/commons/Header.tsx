@@ -9,14 +9,14 @@ const roboto = Roboto({
 
 export default function Header() {
     return (
-        <header className={roboto.className}>
+        <header className={`${roboto.className} bg-h-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
             <Link href='/'>
                 <Image src="/favicon.ico" width={55} height={55} alt="minha logo" />
             </Link>
-            <nav>
-                <Link href='/'>Sobre min</Link>
+            <nav className="hidden md:flex items-center gap-10 text-md">
+                <Link href='/' className="underline-offset-2 hover:underline">Sobre min</Link>
                 {/*<Link href='/'>Portifolio</Link>*/}
-                <Link href='/contatos'>Entre em contato</Link>
+                <Link href='/contatos' className="underline-offset-2 hover:underline">Entre em contato</Link>
             </nav>
         </header>
     )
