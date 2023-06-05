@@ -11,7 +11,7 @@ export default function Home() {
         content="Apaixonado por aprender e criar soluções web, atualmente focando em React, Node e Typescript. ;)"  
       />
       </Head>
-      <div className="py-12 px-6 md-px-32 space-y-10 md:space-y-28">
+      <div className="pb-12 px-6 md-px-32 space-y-10 md:space-y-28">
         <AboutMe />
       </div>
     </>
