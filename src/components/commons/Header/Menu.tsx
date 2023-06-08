@@ -14,14 +14,14 @@ export const Menu = ({isVisible, onClose}: MenuProps) => {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-between mb-5">
-          <Link href='/'>
-            <Image src="/favicon.ico" width={55} height={55} alt="minha logo" />
+          <Link href='/' className="w-16 h-16">
+            <Image src="/Rocket.png" width={200} height={200} alt="minha logo" />
           </Link>
-          <button onClick={onClose} className="flex justify-center items-center pr-1">
-            <MenuClose />
+          <button onClick={onClose} className="flex justify-center items-center pr-1 text-white">
+            <MenuClose/>
           </button>
         </div>
-        <nav className="flex flex-col gap-5 text-xl p-5 items-center">
+        <nav className="flex flex-col gap-5 text-xl p-5 items-center text-white">
           <Link href="/" onClick={onClose}>Sobre mim</Link>
           <Link href="/contatos" onClick={onClose}>Entre em contato</Link>
         </nav>

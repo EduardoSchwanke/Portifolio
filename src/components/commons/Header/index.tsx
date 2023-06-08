@@ -20,8 +20,8 @@ export default function Header() {
 
     return (
         <header className={`${roboto.className} bg-gray-50 border-b-[1px] text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
-            <Link href='/'>
-                <Image src="/favicon.ico" width={55} height={55} alt="minha logo" />
+            <Link href='/' className="w-16 h-16">
+                <Image src="/Rocket.png" width={200} height={200} alt="minha logo" />
             </Link>
             <button className="p-1 md:hidden" onClick={handleMenu}>
                 <MenuIcon/>

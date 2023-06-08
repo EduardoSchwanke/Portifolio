@@ -19,6 +19,12 @@ module.exports = {
       height: {
         125: '31.25rem',
       },
+      keyframes: {
+        bounce: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
+      }
     },
   },
   plugins: [],
