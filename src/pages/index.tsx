@@ -1,5 +1,5 @@
 import AboutMe from "@/components/home/AboutMe";
-import { Portifolio } from "@/components/home/Portifolio";
+import { Projects } from "@/components/home/Projects";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <div className="pb-12 px-6 md-px-32 space-y-10">
         <AboutMe />
-        <Portifolio/>
+        <Projects/>
       </div>
     </>
   )

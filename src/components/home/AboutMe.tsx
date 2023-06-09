@@ -35,8 +35,13 @@ export default function AboutMe() {
                 </h3>
                 <h1 className={`font-bold text-left text-4xl md:text-8xl flex items-end gap-2 text-stone-900 md:relative ${effect ? 'md:left-0' : 'md:left-40'} md:transition-all md:duration-500`}>
                     FRONTEND 
-                    <BsLinkedin className="hidden md:block pb-3 w-8 h-fit cursor-pointer hover:pb-5 transition-all"/>
-                    <BsGithub className="hidden md:flex pb-3 w-8 h-fit cursor-pointer hover:pb-5 transition-all"/>
+                    <a href="https://www.linkedin.com/in/eduardo-carvalho-schwanke-61944123b/">
+                        <BsLinkedin className="hidden md:block pb-3 w-8 h-fit cursor-pointer hover:pb-5 transition-all"/>
+                    </a>
+                    <a href="https://github.com/EduardoSchwanke" 
+                    >
+                        <BsGithub className="hidden md:flex pb-3 w-8 h-fit cursor-pointer hover:pb-5 transition-all"/>
+                    </a>
                     <AiOutlineFileText className="hidden md:flex pb-3 w-8 h-fit cursor-pointer hover:pb-5 transition-all"/>
                 </h1>
                 <h1 className={`font-bold text-left text-5xl md:text-9xl text-stone-900 md:relative ${effect ? 'md:left-0' : 'md:left-40'} md:transition-all md:duration-700`}>DEVELOPER</h1>
